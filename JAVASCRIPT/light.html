@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<style>
+     #blb{
+          height: 200px;
+          width: 200px;
+          border-radius: 50%;
+          border :2px solid black;
+     }
+</style>
+<body>
+     <div id="blb"></div>
+     <button>On/Off</button>
+     <script>
+
+
+         var a = document.getElementsById("blb");
+         var btn=document.querySelector("button");
+
+
+        btn.addEventListener('click', function(){
+          a.style.backgroundColor='yellow'
+        })
+        
+        
+
+
+
+
+
+     </script>
+</body>
+</html>
